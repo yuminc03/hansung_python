@@ -13,7 +13,7 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 반복 종료
     for i in user_input: # 입력받은 MBTI를 한 글자씩 i에 저장
         mbti.append(i) # 리스트에 한 글자씩 저장
 
-    if len(mbti) == 4:
+    if len(mbti) == 4: # 입력받은 MBTI가 4글자일 때(정상적으로 입력)
         if mbti[0] == 'e' or mbti[0] == 'E':
             energy_direction = '외향형'
             success += 1
@@ -48,5 +48,5 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 반복 종료
             break
         else:
             print('MBTI를 다시 입력해주세요.')
-    else:
+    else: # 입력받은 MBTI가 4글자가 아닐 때 (잘못 입력함)
         print('MBTI를 다시 입력해주세요.')
