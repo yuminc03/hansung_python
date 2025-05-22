@@ -14,31 +14,31 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 반복 종료
         mbti.append(i) # 리스트에 한 글자씩 저장
 
     if len(mbti) == 4: # 입력받은 MBTI가 4글자일 때(정상적으로 입력)
-        if mbti[0] == 'e' or mbti[0] == 'E':
+        if mbti[0] == 'e' or mbti[0] == 'E': # 입력한 첫번째 글자가 e 또는 E일 때
             energy_direction = '외향형'
             success += 1
-        elif mbti[0] == 'i' or mbti[0] == 'I':
+        elif mbti[0] == 'i' or mbti[0] == 'I': # 입력한 첫번째 글자가 i 또는 I일 때
             energy_direction = '내향형'
             success += 1
 
-        if mbti[1] == 's' or mbti[1] == 'S':
+        if mbti[1] == 's' or mbti[1] == 'S': # 입력한 첫번째 글자가 s또는 S일 때
             perception = '감각형'
             success += 1
-        elif mbti[1] == 'n' or mbti[1] == 'N':
+        elif mbti[1] == 'n' or mbti[1] == 'N': # 입력한 첫번째 글자가 n 또는 N일 때
             perception = '직관형'
             success += 1
 
-        if mbti[2] == 't' or mbti[2] == 'T':
+        if mbti[2] == 't' or mbti[2] == 'T' : # 입력한 첫번째 글자가 t 또는 T일 때
             decision = '사고형'
             success += 1
-        elif mbti[2] == 'f' or mbti[2] == 'F':
+        elif mbti[2] == 'f' or mbti[2] == 'F': # 입력한 첫번째 글자가 f 또는 F일 때
             decision = '감정형'
             success += 1
 
-        if mbti[3] == 'j' or mbti[3] == 'J':
+        if mbti[3] == 'j' or mbti[3] == 'J': # 입력한 첫번째 글자가 j 또는 J일 때
             life_style = '계획적(판단형)'
             success += 1
-        elif mbti[3] == 'p' or mbti[3] == 'P':
+        elif mbti[3] == 'p' or mbti[3] == 'P': # 입력한 첫번째 글자가 p 또는 P일 때
             life_style = '즉흥적(인식형)'
             success += 1
 
