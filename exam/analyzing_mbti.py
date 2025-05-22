@@ -15,32 +15,32 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 결과 출력 후
 
     if len(mbti) == 4: # 입력받은 MBTI가 4글자일 때(정상적으로 입력)
         if mbti[0] == 'e' or mbti[0] == 'E': # 입력한 첫번째 글자가 e 또는 E일 때
-            energy_direction = '외향형'
-            success += 1
+            energy_direction = '외향형' # 에너지 방향 = '외향형'
+            success += 1 # 성공 횟수 1 증가
         elif mbti[0] == 'i' or mbti[0] == 'I': # 입력한 첫번째 글자가 i 또는 I일 때
-            energy_direction = '내향형'
-            success += 1
+            energy_direction = '내향형' # 에너지 방향 = '내향형'
+            success += 1 # 성공 횟수 1 증가
 
         if mbti[1] == 's' or mbti[1] == 'S': # 입력한 첫번째 글자가 s또는 S일 때
-            perception = '감각형'
-            success += 1
+            perception = '감각형' # 인식 기능 = '감각형'
+            success += 1 # 성공 횟수 1 증가
         elif mbti[1] == 'n' or mbti[1] == 'N': # 입력한 첫번째 글자가 n 또는 N일 때
-            perception = '직관형'
-            success += 1
+            perception = '직관형' # 인식 기능 = '직관형'
+            success += 1 # 성공 횟수 1 증가
 
         if mbti[2] == 't' or mbti[2] == 'T' : # 입력한 첫번째 글자가 t 또는 T일 때
-            decision = '사고형'
-            success += 1
+            decision = '사고형' # 판단 기능 = '사고형'
+            success += 1 # 성공 횟수 1 증가
         elif mbti[2] == 'f' or mbti[2] == 'F': # 입력한 첫번째 글자가 f 또는 F일 때
-            decision = '감정형'
-            success += 1
+            decision = '감정형' # 판단 기능 = '감정형'
+            success += 1 # 성공 횟수 1 증가
 
         if mbti[3] == 'j' or mbti[3] == 'J': # 입력한 첫번째 글자가 j 또는 J일 때
-            life_style = '계획적(판단형)'
-            success += 1
+            life_style = '계획적(판단형)' # 생활 양식 = '계획적'
+            success += 1 # 성공 횟수 1 증가
         elif mbti[3] == 'p' or mbti[3] == 'P': # 입력한 첫번째 글자가 p 또는 P일 때
-            life_style = '즉흥적(인식형)'
-            success += 1
+            life_style = '즉흥적(인식형)' # 생활 양식 = '즉흥적'
+            success += 1 # 성공 횟수 1 증가
 
         if success == 4: # 4가지 유형 분석에 성공했을 때
             print('*** MBTI 분석결과 ***')
