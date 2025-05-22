@@ -42,11 +42,11 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 반복 종료
             life_style = '즉흥적(인식형)'
             success += 1
 
-        if success == 4:
+        if success == 4: # 4가지 유형 분석에 성공했을 때
             print('*** MBTI 분석결과 ***')
             print('당신은 ', energy_direction, '이고 ', perception, '이며 ', decision, '이며 ', life_style, '입니다.')
             break
-        else:
+        else: # MBTI 유형을 잘못입력함
             print('MBTI를 다시 입력해주세요.')
     else: # 입력받은 MBTI가 4글자가 아닐 때 (잘못 입력함)
         print('MBTI를 다시 입력해주세요.')
