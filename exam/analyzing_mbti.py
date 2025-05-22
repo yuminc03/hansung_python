@@ -8,7 +8,7 @@ while True: # MBTI 입력을 틀리지 않고 입력했을 때 결과 출력 후
     perception = '' # 인식 기능
     decision = '' # 판단 기능
     life_style = '' # 생활 양식
-    success = 0 # 유형 분석에 성공한 횟수
+    success = 0 # 유형 분석에 성공한 횟수 (성공 횟수가 4일 때 분석 성공함)
 
     for i in user_input: # 입력받은 MBTI를 한 글자씩 i에 저장
         mbti.append(i) # 리스트에 한 글자씩 저장
