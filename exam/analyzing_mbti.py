@@ -1,5 +1,4 @@
 # 자신의 MBTI를 입력하여 결과를 출력
-from itertools import count
 
 while True: # MBTI 입력을 틀리지 않고 입력했을 때 결과 출력 후 반복 종료
     user_input = input('MBTI를 입력하세요: ') # MBTI를 입력받기
